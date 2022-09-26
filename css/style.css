@@ -7,34 +7,30 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*START NAVBAR*/
 #nav-bar {
     position: sticky;
     top: 0;
     z-index: 10;
     box-shadow: 0 0 10px 0 black;
 }
-
 .navbar {
     background-image: linear-gradient(to right, white, purple);
     padding: 0% !important;
 }
-
 .navbar-brand img {
     height: 60px;
     width: 100px;
 }
-
 .navbar-nav li {
     padding: 0 10px;
 }
-
 .navbar-nav li a:hover {
     background-color: white;
     color: purple !important;
     border-radius: 10px;
     border: 3px solid white;
 }
-
 .navbar-nav li a {
     color: white !important;
     font-weight: 600;
@@ -44,32 +40,36 @@ body {
     border-radius: 10px;
     border: 3px solid transparent;
 }
-
 .fa-bars {
     color: white;
     font-size: 30px;
 }
-
 .navbar-toggler {
     outline: none !important;
 }
+/*END NAVBAR*/
 
+/*START HOME*/
 #home {
     background-color: white;
     color: purple;
     padding-top: 5%;
 }
-
 .promo-title {
     font-size: 55px;
     font-weight: bolder;
     margin-top: 100px;
 }
+.caption {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*END HOME*/
 
+/*START ABOUT*/
 #about {
     background-color: purple;
 }
-
 p.about-title {
     color: white;
     font-weight: bolder;
@@ -77,7 +77,6 @@ p.about-title {
     padding-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 div.visi {
     color: purple;
     font-family: Arial;
@@ -89,7 +88,6 @@ div.visi {
     padding-right: 10px;
     padding-left: 10px;
 }
-
 div.misi {
     color: purple;
     margin-bottom: 40px;
@@ -100,54 +98,43 @@ div.misi {
     padding-right: 10px;
     padding-left: 10px;
 }
-
-.caption {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .top-img {
     width: 100%;
 }
-
 #visi-title {
     font-size: 25px !important;
     font-weight: bold !important;
 }
-
 #misi-title {
     font-size: 25px !important;
     font-weight: bold !important;
     padding-top: 20px !important;
 }
-
 div.visi p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 div.misi p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 1px;
 }
-
 .bottom-img {
     width: 100%;
 }
+/*END ABOUT*/
 
+/*START GALLERY*/
 #gallery {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .gallery-title {
     font-family: Arial, Helvetica, sans-serif;
     color: purple;
     font-size: 40px;
     font-weight: bolder;
 }
-
 .photo-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -155,22 +142,18 @@ div.misi p {
     font-weight: bold;
     background-color: purple;
 }
-
 .card-title {
     color: white;
     font-weight: bold;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .card-img {
     background-size: cover;
 }
-
 .card-body {
     background-color: purple;
 }
-
 .video-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -178,16 +161,16 @@ div.misi p {
     font-weight: bold;
     background-color: purple;
 }
-
 .yt-video {
     width: 100%;
     height: 400px;
 }
+/*END GALLERY*/
 
+/*START TESTIMONIALS*/
 #testimonials {
     background-color: purple;
 }
-
 .testimonials-title {
     color: white;
     font-weight: bolder;
@@ -196,28 +179,23 @@ div.misi p {
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .testimonials {
     border-left: 4px solid white;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 .testimonials p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .user-details {
     display: inline-block;
     font-size: 13px;
 }
-
 .fa-star {
     color: yellow;
     font-size: 14px !important;
 }
-
 #review-button {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -229,7 +207,6 @@ div.misi p {
     padding-right: 10px;
     border-radius: 20px;
 }
-
 #review-button:hover {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -240,11 +217,12 @@ div.misi p {
     padding-right: 10px;
     border-radius: 20px;
 }
-
 .testimonials-container {
     margin-bottom: 30px;
 }
+/*END TESTIMONIALS*/
 
+/*START CONTACT*/
 .contact-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -253,11 +231,9 @@ div.misi p {
     margin-top: 30px;
     margin-bottom: 50px;
 }
-
 .con-row {
     margin-bottom: 30px;
 }
-
 .social-media {
     font-size: 25px;
     color: purple;
@@ -265,15 +241,12 @@ div.misi p {
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 #maps {
     width: 100%;
 }
-
 .sosmed-list {
     margin-bottom: 20px;
 }
-
 .social-icons {
     font-size: 50px;
     color: purple;
@@ -282,7 +255,6 @@ div.misi p {
     padding-top: 3px;
     padding-bottom: 3px;
 }
-
 .social-icons:hover {
     background-color: purple;
     color: white;
@@ -292,32 +264,28 @@ div.misi p {
     padding-bottom: 3px;
     border-radius: 5px;
 }
-
 .alamat {
     margin-top: 80px;
 }
-
 .address-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: purple;
     font-weight: bold;
 }
-
 .address-info {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: purple;
 }
-
 #writer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-top: 30px;
 }
-
 #footer {
     background-color: black;
     text-align: center;
     padding: 20px;
 }
+/*END CONTACT*/

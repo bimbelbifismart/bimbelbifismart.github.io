@@ -15,7 +15,7 @@ body {
     box-shadow: 0 0 10px 0 black;
 }
 .navbar {
-    background-image: linear-gradient(to right, white, purple);
+    background-image: linear-gradient(to right, white, cyan);
     padding: 0% !important;
 }
 .navbar-brand img {

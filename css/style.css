@@ -142,6 +142,43 @@ div.misi p {
 }
 /*END ABOUT*/
 
+/*START PROGRAMS*/
+#programs {
+    background-color: white;
+}
+
+.title-program {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.programs-title {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.program-text {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.card-body-program {
+    background-color: purple;
+}
+
+.card-text-program {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-top: 15px;
+}
+/*END PROGRAMS*/
+
 /*START GALLERY*/
 #gallery {
     background-color: white;

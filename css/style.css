@@ -159,35 +159,48 @@ div.misi p {
     font-weight: bolder;
 }
 
-.program-text {
-    color: purple;
+.card-text-programs {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
     font-size: 15px;
-    margin-top: 30px;
-}
-
-.card-body-program {
-    background-color: purple;
-}
-
-.card-text-program {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color: white;
+    color: purple;
     margin-top: 15px;
+    font-weight: bold;
+}
+
+.card-programs {
+    border-width: 4px !important;
+    border-color: purple !important;
+    border-radius: 5px !important;
+}
+
+.programs-other {
+    margin-top: 50px;
+}
+
+.other-programs {
+    font-size: 25px;
+    color: purple;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.other-list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: purple;
 }
 /*END PROGRAMS*/
 
 /*START GALLERY*/
 #gallery {
-    background-color: white;
+    background-color: purple;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .gallery-title {
     font-family: Arial, Helvetica, sans-serif;
-    color: purple;
+    color: white;
     font-size: 40px;
     font-weight: bolder;
 }
@@ -195,13 +208,13 @@ div.misi p {
 .photo-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color: white;
+    color: purple;
     font-weight: bold;
-    background-color: purple;
+    background-color: white;
 }
 
 .card-title {
-    color: white;
+    color: purple;
     font-weight: bold;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -212,15 +225,15 @@ div.misi p {
 }
 
 .card-body {
-    background-color: purple;
+    background-color: white;
 }
 
 .video-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color: white;
+    color: purple;
     font-weight: bold;
-    background-color: purple;
+    background-color: white;
 }
 
 .yt-video {
@@ -231,11 +244,11 @@ div.misi p {
 
 /*START TESTIMONIALS*/
 #testimonials {
-    background-color: purple;
+    background-color: white;
 }
 
 .testimonials-title {
-    color: white;
+    color: purple;
     font-weight: bolder;
     font-size: 40px;
     padding-bottom: 30px;
@@ -244,13 +257,13 @@ div.misi p {
 }
 
 .testimonials {
-    border-left: 4px solid white;
+    border-left: 4px solid purple;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .testimonials p {
-    color: white;
+    color: purple;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -279,9 +292,9 @@ div.misi p {
 #review-button:hover {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: purple;
-    border: 7px solid white;
+    background-color: purple;
+    color: white;
+    border: 7px solid purple;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
@@ -293,10 +306,15 @@ div.misi p {
 /*END TESTIMONIALS*/
 
 /*START CONTACT*/
+#contact {
+    background-color: purple;
+    padding-bottom: 1px;
+}
+
 .contact-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    color: purple;
+    color: white;
     font-weight: bolder;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -308,7 +326,7 @@ div.misi p {
 
 .social-media {
     font-size: 25px;
-    color: purple;
+    color: white;
     font-weight: bold;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -324,7 +342,7 @@ div.misi p {
 
 .social-icons {
     font-size: 50px;
-    color: purple;
+    color: white;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 3px;
@@ -332,8 +350,8 @@ div.misi p {
 }
 
 .social-icons:hover {
-    background-color: purple;
-    color: white;
+    background-color: white;
+    color: purple;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 3px;
@@ -348,25 +366,37 @@ div.misi p {
 .address-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color: purple;
+    color: white;
     font-weight: bold;
 }
 
 .address-info {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: purple;
+    color: white;
 }
 
 #writer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-top: 30px;
+    color: white;
 }
 
+.writer-insta {
+    color: white;
+    font-weight: bold;
+}
+
+.writer-insta:hover {
+    color: white;
+}
+/*END CONTACTS*/
+
+/*START FOOTER*/
 #footer {
     background-color: black;
     text-align: center;
     padding: 20px;
 }
-/*END CONTACT*/
+/*END FOOTER*/

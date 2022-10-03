@@ -177,6 +177,10 @@ div.misi p {
     margin-top: 50px;
 }
 
+.card-img-programs {
+    width: auto;
+}
+
 .other-programs {
     font-size: 25px;
     color: purple;

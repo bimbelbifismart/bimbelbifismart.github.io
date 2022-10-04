@@ -267,7 +267,7 @@ div.misi p {
 }
 
 .testimonials p {
-    color: purple;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -402,5 +402,10 @@ div.misi p {
     background-color: black;
     text-align: center;
     padding: 20px;
+}
+
+.foottext {
+    color: gray;
+    font-size: 13px;
 }
 /*END FOOTER*/

@@ -66,12 +66,33 @@ body {
 .promo-title {
     font-size: 55px;
     font-weight: bolder;
-    margin-top: 100px;
+    margin-top: 100px;  
 }
 
 .caption {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.promotion {
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.promo-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#contact-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    border: 5px solid purple;
+    border-radius: 5px;
 }
 /*END HOME*/
 
@@ -118,6 +139,7 @@ div.misi {
 #visi-title {
     font-size: 20px !important;
     font-weight: bold !important;
+    padding-top: 20px !important;
 }
 
 #misi-title {
@@ -126,15 +148,14 @@ div.misi {
     padding-top: 20px !important;
 }
 
-div.visi p {
+.visi-p {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div.misi p {
+.misi.p {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 1px;
 }
 
 .bottom-img {
@@ -168,9 +189,9 @@ div.misi p {
 }
 
 .card-programs {
-    border-width: 4px !important;
+    border-width: 2px !important;
     border-color: purple !important;
-    border-radius: 5px !important;
+    border-radius: 2px !important;
 }
 
 .programs-other {
@@ -182,7 +203,7 @@ div.misi p {
 }
 
 .other-programs {
-    font-size: 25px;
+    font-size: 30px;
     color: purple;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -190,7 +211,7 @@ div.misi p {
 
 .other-list {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: purple;
 }
@@ -215,6 +236,10 @@ div.misi p {
     color: purple;
     font-weight: bold;
     background-color: white;
+}
+
+#slideshow {
+    margin-bottom: 15px;
 }
 
 .card-title {
@@ -406,6 +431,6 @@ div.misi p {
 
 .foottext {
     color: gray;
-    font-size: 13px;
+    font-size: 12px;
 }
 /*END FOOTER*/
